@@ -61,13 +61,6 @@ Though Solana implementation (which is the state-of-the-art of IGaming) would be
 
 ## Tests and Security Overview
 
-* Test coverage:
-    * Check the lcov.info file in /stats_and_reports
-
-| File                    | % Lines          | % Statements     | % Branches     | % Funcs         |
-|-------------------------|------------------|------------------|----------------|-----------------|
-| src/F3BlackJack.sol     | 97.97% (289/295) | 97.97% (289/295) | 91.94% (57/62) | 100.00% (31/31) |
-
 * *Static code analysis*: 
     * [Slither](https://github.com/crytic/slither): shows pottential reentrancies in fulfillRandomWords, but Chainlink is a trusted party
     * [Aderyn](https://github.com/Cyfrin/aderyn): no significant issues
