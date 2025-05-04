@@ -133,7 +133,7 @@ Don't forget to give the project a star! Thanks again!
 
 # To Do
 
-* Deployment and fork tests on Arbitrum Sepolia (link on arbiscan coming soon)
+* Add Gelato VRF as a backup oracle
 
 # License
 
